@@ -5,8 +5,9 @@
 \alias{microRutils}
 \title{microRutils: Mike Rowe's Miscellaneous R Utility Functions}
 \description{
-The microRutils package contains general-purpose functions that are used by
-other microR* packages for text manipulation, plotting and general utility.
+The microRutils package contains various functions for text manipulation,
+plotting and general utility. These have been developed over the last decade
+or so; they range from the picayune to the highly useful.
 }
 \section{General Utility}{
 

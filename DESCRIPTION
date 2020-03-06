@@ -1,6 +1,6 @@
 Package: microRutils
 Title: Mike Rowe's Miscellaneous R Utility Functions
-Version: 1.0.0.20200305
+Version: 1.0.1.20200306
 Authors@R: 
     person(given = "Michael",
            family = "Rowe",
