@@ -1,0 +1,9 @@
+Makefile
+README.html
+README.rst
+mwr-setup
+^.*\.Rproj$
+^\.Rproj\.user$
+^jenkins$
+^mwr-setup$
+^\.idea$

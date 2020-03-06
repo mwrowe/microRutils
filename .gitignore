@@ -1,0 +1,12 @@
+*.html
+*.tar.gz
+*~
+.DS_Store
+.RData
+.Rhistory
+.Rproj.user
+.Ruserdata
+.project
+.idea
+.Rproj.user/
+\#*

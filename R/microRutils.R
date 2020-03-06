@@ -1,0 +1,102 @@
+#' microRutils: Mike Rowe's Miscellaneous R Utility Functions
+#' 
+#' The microRutils package contains general-purpose functions that are used by
+#' other microR* packages for text manipulation, plotting and general utility.
+#' These have been developed over the last decades; they range from the
+#' picayune to the highly useful.
+#'
+#'
+#' @section General Utility:
+#' \itemize{
+#'    \item \code{\link{cbindSafe}(), \link{rbindSafe}()}:
+#'        Column-/row-wise concatenation of objects with potentially
+#'        different rows/columns.
+#'    \item \code{\link{compressMatrix}()}:
+#'        Resize a matrix by combining adjacent elements.
+#'    \item \code{\link{express}()}:
+#'        Programmatically generate expression objects.
+#'    \item \code{\link{getLapplyIndex}()}:
+#'        Access index of list element from within lapply().
+#'    \item \code{\link{nameslike}()}:
+#'        Find named elements, rows or columns using a regular expression.
+#'    \item \code{\link{nonUniq}()}:
+#'        Find replicated elements in a vector.
+#'    \item \code{\link{numberReplicates}()}:
+#'        Number recurring elements within a vector.
+#'    \item \code{\link{Order}()}:
+#'        Order items using columns of a data.frame as keys.
+#'    \item \code{\link{prepDir}()}:
+#'        Create a new directory.
+#'    \item \code{\link{pvalOrder}()}:
+#'        Order p-values by levels, then numeric value.
+#'    \item \code{\link{rowMads}()}:
+#'        Fast calculation of MADs by row.
+#'    \item \code{\link{rowSds}()}:
+#'        Fast calculation of standard deviations of rows.
+#'    \item \code{\link{rowZs}()}:
+#'        Fast calculation of Z-scores by row.
+#'    \item \code{\link{samediff}()}:
+#'        Find elements in common, and unique to, two vectors.
+#'    \item \code{\link{selectRows}()}:
+#'        Row selection of a data.frame.
+#'    \item \code{\link{uniqRowFreqs}()}:
+#'        Count occurrences of replicate rows in a data.frame.
+#'    \item \code{\link{untab}()}:
+#'        Convert a table object to an array.
+#' }
+#'
+#' @section Text Manipulation:
+#' \itemize{
+#'    \item \code{\link{is.char}(), \link{as.char}()}:
+#'        Alises for as.character() and is.character().
+#'    \item \code{\link{asciiToChar}()}:
+#'        Conversion between letters and ASCII codes.
+#'    \item \code{\link{cString}()}:
+#'        Create a c() expression from character vector.
+#'    \item \code{\link{orString}()}:
+#'        Generate an OR regular expression substring.
+#'    \item \code{\link{p.print}()}:
+#'        Formats p-values for readability.
+#'    \item \code{\link{percent}()}:
+#'        Format numeric values as (character) percentages.
+#'    \item \code{\link{regextr}()}:
+#'        Substring extraction by regular expression.
+#'    \item \code{\link{rename}()}:
+#'        Rename elements, rows or columns, etc. of an object.
+#'    \item \code{\link{strrev}()}:
+#'        Reverse character order within each element of a character vector.
+#'    \item \code{\link{yyyymmdd}()}:
+#'        Generate a formatted time stamp.
+#' }
+#'
+#' @section Plotting Functions:
+#' \itemize{
+#'    \item \code{\link{circle}()}: Plot a circle or regular polygon.
+#'    \item \link[microRutils:hot]{Custom colormaps for heat maps}:
+#'       \code{aqua.brown(), grayscale, hot(), hot2(), jet(), orange.blue(),
+#'       purple.green(), purple.orange(), red.green(), yellow.blue()}
+#'    \item \code{\link{enclose.plot}()}:
+#'        Draw edge around a plot.
+#'    \item \code{\link{groupedTickLabels}()}:
+#'        Label axes with hierarchically organized groups.
+#'    \item \code{\link{Hist}()}:
+#'        Modified version of the graphics::hist() histogram function.
+#'    \item \code{\link{Image}()}:
+#'        Modified version of the graphics::image() plotting function.
+#'    \item \code{\link{logtix}()}:
+#'        Add log-scaled tick marks to an axis.
+#'    \item \code{\link{plot2Dhist}()}:
+#'        Generate and plot a 2D-histogram as a heatmap.
+#'    \item \code{\link{sym}()}:
+#'        Get a numeric range that is symmetric around zero.
+#'    \item \code{\link{T.width}()}:
+#'        Determine width of caps on error bars as fraction of plot width.
+#'    \item \code{\link{VennPlot}()}:
+#'        Draw a Venn plot with proportional areas.
+#'    \item \code{\link{x.pt}(), \link{y.pt}()}:
+#'        Get the location value associated with a fraction of x- or y-axis.
+#' }
+#'
+#' @docType package
+#' @name microRutils
+NULL
