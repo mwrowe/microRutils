@@ -39,7 +39,7 @@ make_README <- function(pkg.R_file, out.file){
       if(missing(close_repl)) close_repl <- open_repl
 
       open.ndxs <- gregexpr(open_patt, txt)[[1]]
-      if(open.ndxs[1]== -1) invisible(txt)
+      if(open.ndxs[1]== -1) open.ndxs <- c()
       nest.ndxs <- gregexpr(open_nest, txt)[[1]]
       close.ndxs <- gregexpr(close_patt, txt)[[1]]
       for(open.ndx in rev(open.ndxs)){
