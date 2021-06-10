@@ -1,6 +1,6 @@
 Package: microRutils
 Title: Mike Rowe's Miscellaneous R Utility Functions
-Version: 1.0.2.20200316
+Version: 1.0.3.20210609
 Authors@R: 
     person(given = "Michael",
            family = "Rowe",
@@ -11,6 +11,7 @@ Description: microRutils provides various utility functions.  These are
     generally simple convenience functions.
 Depends: R (>= 3.3.0), stats, graphics, grDevices, methods
 Imports: Biobase (>= 2.34.0)
+Remotes: bioc:Biobase
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
