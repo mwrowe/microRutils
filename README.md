@@ -3,7 +3,7 @@
 The microRutils package contains various functions for text manipulation,
 plotting and general utility. These have been developed over the last decade or so; they range from the picayune to the highly useful.
 
-Version: 1.0.3.20210609
+Version: 1.0.3.20210610
 ### General Utility:
 
 * `cbindSafe(), rbindSafe()`: Column-/row-wise concatenation of objects with potentially different rows/columns.
