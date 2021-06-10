@@ -9,7 +9,7 @@ Authors@R:
            comment = c(ORCID = "0000-0002-7033-3340"))
 Description: microRutils provides various utility functions.  These are
     generally simple convenience functions.
-Depends: R (>= 3.3.0), stats, graphics, grDevices, methods
+Depends: R (>= 3.3.0), stats, graphics, grDevices, methods, remotes
 Imports: Biobase (>= 2.34.0)
 Remotes: bioc:Biobase
 License: GPL-3
